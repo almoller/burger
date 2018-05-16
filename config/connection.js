@@ -7,10 +7,10 @@ var sql_PW = keys.mySQL_DB.SQL_key
 
 var connection = mysql.createConnection({
   port: 3306,
-  host: "localhost",
-  user: "root",
-  password: sql_PW,
-  database: "burgers_db"
+  host: process.env.host || "localhost",
+  user: process.env.user || "root",
+  password: process.env.password || sql_PW,
+  database: process.env.database || "burgers_db"
 });
 
 
