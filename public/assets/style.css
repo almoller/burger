@@ -1,0 +1,30 @@
+body {
+    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/food.png");
+}
+
+.jumbotron {
+    background: rgba(255, 255, 255, 0.25);
+    /* background: url("https://www.toptal.com/designers/subtlepatterns/patterns/food.png"); */
+}
+
+#burgerIcon {
+    border-radius: 25px;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+#submit {
+    padding: 5px 15px;
+}
